@@ -6,7 +6,8 @@ public class Airport {
         Greeter greeter = new Greeter();
         Greetings greetingsArray[] = {new EnglishGreetings(),
                 new GermanGreetings(),
-                new FrenchGreetings()};
+                new FrenchGreetings(),
+                new PolishGreetings()};
         for (Greetings greetings : greetingsArray) {
             greeter.setGreetings(greetings);
             greeter.greet();
